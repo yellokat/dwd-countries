@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div>
-      find countries
+      find countries:
       <input id="searchQueryInput" onChange={handleChange}></input>
       <SearchResult foundCountries={searchResults} handleShowButton={handleShowButton}/>
     </div>
